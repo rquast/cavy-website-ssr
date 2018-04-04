@@ -9,13 +9,7 @@ npm install
 ## Run locally
 
 ```
-au run --watch
-```
-
-## Package
-
-```
-au build --env prod
+npm start
 ```
 
 ## Running the SSR server
