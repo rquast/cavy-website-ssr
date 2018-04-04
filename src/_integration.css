@@ -1,0 +1,35 @@
+.integration-heading-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.integration-code-container {
+  padding: 20px;
+  background: #eee;
+  font-family: monospace, serif;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.integration-image {
+  margin-left: 20px;
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+
+  .integration-code-container {
+    font-size: 12px;
+  }
+
+  .integration-heading-container {
+    justify-content: center;
+    min-height: 120px;
+  }
+
+  .integration-image {
+    width: 60px;
+    margin-left: 14px !important;
+  }
+
+}

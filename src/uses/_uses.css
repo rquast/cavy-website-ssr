@@ -1,0 +1,186 @@
+.uses-hero {
+  height: 50vh;
+  max-height: 500px;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('static/saas-hero.jpg');
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 8%;
+}
+
+.uses-hero-left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.uses-hero-title {
+  font-weight: 700;
+  font-size: 82px;
+  display: inline-block;
+}
+
+.uses-hero-subtitle {
+  font-weight: 500;
+  font-size: 32px;
+  background-color: rgba(0,0,0,0.6);
+  display: inline;
+  padding: 0.5rem;
+  box-decoration-break: clone;
+}
+
+.uses-hero-trial {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.uses-hero-trial > .button {
+  padding: 5px 20px 4px 20px;
+}
+
+.uses-hero-right {
+}
+
+.uses-container {
+  padding-top: 120px;
+}
+
+.uses-body {
+  margin-top: 90px;
+}
+
+.uses-content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--blue-gray);
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+  .uses-content > .blue-gray-heading {
+    font-size: 1.3em;
+  }
+
+  .uses-content p {
+    font-size: 14px;
+  }
+
+  .uses-hero-trial {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 11px;
+  }
+
+  .uses-hero-trial > .button {
+    font-size: 11px;
+    padding: 3px 10px 2px 10px;
+  }
+
+  .uses-body {
+    margin-top: 40px;
+  }
+
+  .uses-container {
+    padding-top: 70px;
+  }
+
+  .uses-hero-left {
+    margin-left: 10px;
+  }
+
+  .uses-hero-title {
+    font-size: 21px;
+  }
+
+  .uses-hero {
+    height: 200px;
+    max-height: 200px;
+    padding-left: 10px;
+  }
+
+  .uses-hero-subtitle {
+    font-size: 13px;
+    padding: 0.1rem;
+    max-width: 95%;
+    display: inline-block;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+  .uses-hero {
+    max-height: 400px;
+  }
+
+  .uses-hero-title {
+    font-size: 42px;
+  }
+
+  .uses-hero-subtitle {
+    font-size: 22px;
+    padding: 0.5rem;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .uses-hero {
+    max-height: 420px;
+  }
+
+  .uses-hero-title {
+    font-size: 45px;
+  }
+
+  .uses-hero-subtitle {
+    font-size: 22px;
+    padding: 0.5rem;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .uses-hero {
+    max-height: 440px;
+  }
+
+  .uses-hero-title {
+    font-size: 58px;
+  }
+
+  .uses-hero-subtitle {
+    font-size: 32px;
+    padding: 0.5rem;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .uses-hero {
+    max-height: 450px;
+  }
+
+  .uses-hero-title {
+    font-size: 72px;
+  }
+
+  .uses-hero-subtitle {
+    font-size: 32px;
+    padding: 0.5rem;
+  }
+
+}
+
+

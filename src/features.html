@@ -1,0 +1,142 @@
+<template>
+
+  <image-view if.bind="activeImage"></image-view>
+
+  <div class="container">
+
+    <div class="section">
+
+      <div class="page-body">
+        <div class="features-heading-container">
+          <div class="center-vertical">
+            <div class="blue-heading" if.bind="resize.desktop">Cavy Features</div>
+            <div class="blue-gray-heading">Features</div>
+            <div class="light-blue-gray-heading" if.bind="resize.desktop">How Cavy can make support easier for you.</div>
+          </div>
+          <div class="heading-image">
+            <img src="../static/features.svg" class="features-image">
+          </div>
+        </div>
+      </div>
+
+      <div class="page-body">
+
+        <div class="features-container">
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Live Chat</div>
+              <div class="feature-paragraph">
+                <img src="../static/chat.svg">
+                Chat with people in realtime. Like an instant messenger, you can also chat with people who are offline, and it will send a log of all messages that are unread by email.
+              </div>
+              <scrolling-preview items.bind="chat_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Single Sign-On Accounts</div>
+              <div class="feature-paragraph">
+                <img src="../static/id-card.svg">
+                Users can create a Cavy account, or sign-in with a Google, Microsoft, Facebook or GitHub account.
+              </div>
+              <scrolling-preview items.bind="sso_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Issue Tracking</div>
+              <div class="feature-paragraph">
+                <img src="../static/issue-tracking.svg">
+                Keep track of all issues relating to a topic in the one place. Pin related topics and help give context to your issues.
+              </div>
+              <scrolling-preview items.bind="issues_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Documentation Wiki</div>
+              <div class="feature-paragraph">
+                <img src="../static/wiki.svg">
+                Quickly and easily edit content on the fly for any topic with the WYSIWYG wiki editor. Search results are instantly indexed each time you save in the editor. Images are embedded and uploaded on save. Videos and code previews are also embeddable.
+              </div>
+              <scrolling-preview items.bind="wiki_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Large File Sharing</div>
+              <div class="feature-paragraph">
+                <img src="../static/file.svg">
+                Send files in chat or issues, up to a few gigabytes in size. Does not require a user to be online at the time.
+              </div>
+              <scrolling-preview items.bind="file_transfer_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Sticky Topics</div>
+              <div class="feature-paragraph">
+                <img src="../static/sticky-topics.svg">
+                Organize and brainstorm ideas by adding topics as topic tiles to the related topics view. The topic tiles can be dragged and pinned, helping you to come up with new ideas.
+              </div>
+              <scrolling-preview items.bind="sticky_topics_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Website Widget</div>
+              <div class="feature-paragraph">
+                <img src="../static/widget.svg">
+                Put Cavy into your website. Link Cavy topics to pages on your website, elements in your website to Cavy topics and show unread notifications for any user who is logged in.
+              </div>
+              <scrolling-preview items.bind="widget_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Change Alerts</div>
+              <div class="feature-paragraph">
+                <img src="../static/megaphone.svg">
+                Let people know when you update a topic using Change Alerts. Any user can subscribe to a topic and then receive any message an administrator posts about that topic. It&apos;s a great way to keep in contact with people without remembering who you need to contact.
+              </div>
+              <scrolling-preview items.bind="change_alerts_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">Image Cropping &amp; Annotation</div>
+              <div class="feature-paragraph">
+                <img src="../static/image-editing.svg">
+                When uploading images to the editor, in chat or an issue, you are prompted to crop or annotate the image. Cropping allows you to select the parts of the image that you want to see, it also allows you to resize the image. Annotating lets you draw arrows, lines rectangles or circles in the image.
+              </div>
+              <scrolling-preview items.bind="image_editing_pictures"></scrolling-preview>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div>
+              <div class="feature-title">World Time Planner</div>
+              <div class="feature-paragraph">
+                <img src="../static/world-time.svg">
+                Timezones are automatically calculated by Cavy, and with the timezone planner you can see how your available hours compare to other people. It even calculates other people&apos;s availability based on the country they are from and their standard weekly working hours. Users can also set their own availability and timezone information manually.
+              </div>
+              <scrolling-preview items.bind="availability_pictures"></scrolling-preview>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section">
+      <div class="call-to-action-container">
+        <div class="call-to-action-container-title">
+          <div>Want to see Cavy in action before trialing?</div>
+          <div>Watch the <a href="https://support.cavy.io/#/?topic=end-user-getting-started" target="_blank">End User</a> or <a href="https://support.cavy.io/#/?topic=administrator-getting-started" target="_blank">Administrator</a> guide videos.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</template>

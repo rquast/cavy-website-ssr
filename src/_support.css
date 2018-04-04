@@ -1,0 +1,23 @@
+.support-heading-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.support-image {
+  margin-left: 20px;
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+
+  .support-heading-container {
+    justify-content: center;
+    min-height: 120px;
+  }
+
+  .support-image {
+    width: 60px;
+    margin-left: 14px !important;
+  }
+
+}

@@ -1,0 +1,32 @@
+.pricing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.pricing-per-subdomain {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--blue-gray);
+}
+
+.pricing-amount {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.pricing-amount-info {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--blue-gray);
+}
+
+@media (max-width: 768px) {
+  .pricing-per-subdomain {
+    font-size: 17px;
+  }
+}

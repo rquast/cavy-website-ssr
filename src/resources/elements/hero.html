@@ -1,0 +1,94 @@
+<template>
+
+  <div if.bind="showExplainer" class="explainer-window au-animate"></div>
+
+  <div show.bind="showVideo" class="explainer-video-window au-enter-active">
+    <div class="close-button" click.delegate="closeExplainer()" title="Close Explainer" aria-label="Close Explainer">
+      <img src="../../../static/close.svg">
+    </div>
+    <video class="video-js" controls preload="auto">
+      <source src="http://getcavy.com.global.prod.fastly.net/static/cavy-explained.mp4" type='video/mp4'>
+    </video>
+  </div>
+
+  <div class="page-body" if.bind="resize.desktop">
+    <div id="particles-js" class="hero-container">
+      <div class="hero-left">
+
+        <div class="blue-heading">
+          Online Support Platform &amp; Help Desk System
+        </div>
+
+        <div class="hero-title-container">
+          <div class="hero-title-left">
+            <div class="blue-gray-heading">
+              Smarter, Cheaper &amp; <div class="image-underline">Easier</div> Support
+            </div>
+            <div class="light-blue-gray-heading">
+              Topic Driven User Support<br>
+              Are you ready to communicate?
+            </div>
+          </div>
+          <div class="hero-title-right">
+            <img src="../../../static/cavy-point.png" width="118" height="131">
+          </div>
+        </div>
+
+        <div class="hero-action-container">
+
+          <div class="hero-action-title">
+            Easy set-up &middot; Free 30 day Trial &middot; Cancel at any time
+          </div>
+
+          <div class="button" click.delegate="claim()">
+            Get Cavy
+          </div>
+
+        </div>
+
+      </div>
+      <div class="hero-right">
+
+        <img src="../../../static/explainer.svg">
+
+        <div class="button inverted-button explainer-button" click.delegate="openExplainer()">
+          Watch Explainer Video
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-container-mobile" if.bind="!resize.desktop">
+
+    <div class="hero-title-container">
+      <div class="hero-title-left">
+        <div class="blue-gray-heading">
+          Smarter<br>Cheaper<br><div class="image-underline">Easier</div><br>Support
+        </div>
+      </div>
+      <div class="hero-title-right">
+        <img src="../../../static/cavy-point.png" width="118" height="131">
+      </div>
+    </div>
+
+    <div class="light-blue-gray-heading">
+      Topic Driven User Support<br>
+      Are you ready to communicate?
+    </div>
+
+    <div class="hero-explainer-mobile">
+      <img src="../../../static/explainer.svg">
+      <div class="button inverted-button explainer-button" click.delegate="openExplainer()">
+        Watch Explainer Video
+      </div>
+    </div>
+
+    <div class="hero-arrow-down">
+      <img src="../../../static/arrow-down.svg">
+    </div>
+
+  </div>
+
+</template>

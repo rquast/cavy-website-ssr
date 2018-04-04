@@ -1,0 +1,40 @@
+<template>
+
+  <div class="container">
+
+    <div class="section">
+
+      <div class="page-body">
+        <div class="support-heading-container">
+          <div class="center-vertical">
+            <div class="blue-heading" if.bind="resize.desktop">Support Options</div>
+            <div class="blue-gray-heading">Support</div>
+            <div class="light-blue-gray-heading" if.bind="resize.desktop">What support is offered with a Cavy subscription?</div>
+          </div>
+          <div class="heading-image">
+            <img src="../static/support.svg" class="support-image">
+          </div>
+        </div>
+      </div>
+
+      <div class="page-body">
+
+        <div class="page-heading-title" if.bind="resize.desktop">Online Support</div>
+
+        <p>Assistance is provided through our support instance:</p>
+
+        <p><a href="https://support.cavy.io" target="_blank"><strong>https://support.cavy.io</strong></a></p>
+
+        <p>We don&apos;t provide phone, email, integration or programming support.</p>
+
+        <p>We highly encourage you to use our support system and ask questions, especially if you can&apos;t find the answer you are looking for.</p>
+
+        <p>Please also let us know of any <a href="https://support.cavy.io/#/?topic=bugs" target="_blank">bugs</a> you find or <a href="https://support.cavy.io/#/?topic=feature-requests" target="_blank">features</a> you&apos;d like to see.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>

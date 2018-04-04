@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2398" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1" enable-background="new 0 0 48 48" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 48 48">
+ <metadata id="metadata2404">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="path1301" d="m46.689 24c0 7.3856-3.5284 13.947-8.9923 18.089-3.8062 2.8875-8.5505 4.5999-13.697 4.5999-5.2379 0-10.061-1.7744-13.901-4.7555-5.3468-4.151-8.7881-10.641-8.7881-17.934 0-12.531 10.158-22.689 22.689-22.689 12.531-0.0001 22.689 10.158 22.689 22.689z" stroke-width=".088629" fill="#b2d8fa"/>
+ <g id="g2963" transform="matrix(.6561 0 0 .6561 8.2536 7.281)">
+  <g id="g2386" fill="#37474f">
+   <rect id="rect2382" y="20" width="30" x="9" height="13"/>
+   <ellipse id="ellipse2384" cy="33" cx="24" rx="15" ry="6"/>
+  </g>
+  <path id="path2388" fill="#78909c" d="m23.1 8.2-22.5 9.9c-0.8 0.4-0.8 1.5 0 1.9l22.5 9.9c0.6 0.2 1.2 0.2 1.8 0l22.5-9.9c0.8-0.4 0.8-1.5 0-1.9l-22.5-9.9c-0.6-0.3-1.2-0.3-1.8 0z"/>
+  <g id="g2396" fill="#37474f">
+   <path id="path2390" d="m43.2 20.4-20-3.4c-0.5-0.1-1.1 0.3-1.2 0.8s0.3 1.1 0.8 1.2l19.2 3.2v14.8c0 0.6 0.4 1 1 1s1-0.4 1-1v-15.6c0-0.5-0.4-0.9-0.8-1z"/>
+   <circle id="circle2392" cx="43" cy="37" r="2"/>
+   <path id="path2394" d="m46 40c0 1.7-3 6-3 6s-3-4.3-3-6 1.3-3 3-3 3 1.3 3 3z"/>
+  </g>
+ </g>
+</svg>

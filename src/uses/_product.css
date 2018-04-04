@@ -1,0 +1,30 @@
+.product-hero {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('static/product-hero.jpg');
+}
+
+.product-flowchart {
+  display: inline-block;
+  float: right;
+  width: 400px;
+  margin: 0 0 20px 40px;
+}
+
+.product-flowchart-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .product-flowchart {
+    display: none;
+  }
+
+  .product-flowchart-mobile {
+    display: block;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,64 @@
+html {
+  font-size: 1em;
+  font-weight: normal;
+  overflow-y: scroll;
+  height: 100%;
+  font-family: 'Heebo', sans-serif;
+  background-color: var(--background-color);
+  line-height: initial;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+div[aurelia-app] {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--blue);
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+textarea {
+  resize: none;
+}
+
+em, i {
+  color: inherit;
+}
+
+a {
+  color: var(--blue);
+}
+
+p {
+  color: var(--navy);
+  font-size: 0.9em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.noselect * {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.pointer * {
+  cursor: pointer
+}
+
+* {
+  box-sizing: border-box;
+}

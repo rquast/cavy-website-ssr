@@ -1,0 +1,32 @@
+/* GLOBAL */
+@import './_global.css';
+
+/* COMPONENTS */
+@import './_buttons.css';
+
+/* VIEWS */
+@import './_home.css';
+@import './_claim.css';
+@import './_features.css';
+@import './_pricing.css';
+@import './_integration.css';
+@import './_support.css';
+
+/* ELEMENTS */
+@import './resources/elements/_scrolling-preview.css';
+@import './resources/elements/_image-view.css';
+@import './resources/elements/_heading.css';
+@import './resources/elements/_footer.css';
+@import './resources/elements/_hero.css';
+
+/* APP */
+@import './_app.css';
+
+/* USE CASES */
+@import './uses/_uses.css';
+@import './uses/_saas.css';
+@import './uses/_academic.css';
+@import './uses/_product.css';
+
+/* THIRD PARTY */
+@import '../node_modules/prismjs/themes/prism.css';

@@ -1,0 +1,13 @@
+<template>
+
+  <div class="scroll-to-top ${!scrollAtTop ? 'fade-in' : 'fade-out'}" click.delegate="scrollToTop()" title="Scroll To Top" aria-label="Scroll To Top">
+    <img src="../static/scroll-to-top.svg" width="18">
+  </div>
+
+  <heading></heading>
+
+  <router-view></router-view>
+
+  <footer></footer>
+
+</template>

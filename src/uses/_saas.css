@@ -1,0 +1,58 @@
+.saas-hero {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('static/saas-hero.jpg');
+}
+
+.saas-diagram {
+  float: right;
+  display: inline-block;
+  margin: 0 0 20px 40px;
+}
+
+.saas-diagram-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .saas-diagram {
+    display: none;
+  }
+  .saas-diagram-mobile {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .saas-diagram {
+    width: 420px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .saas-diagram {
+    width: 480px;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .saas-diagram {
+    width: 480px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .saas-diagram {
+    width: 700px;
+  }
+
+}

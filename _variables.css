@@ -1,0 +1,26 @@
+:root {
+
+  --background-color: #fff;
+
+  --blue-gray: #3b566e;
+  --light-blue-gray: #7698b6;
+
+  --blue: #1e8cf0;
+  --light-blue: #f4f9fe;
+
+  --icon-blue: #d4e9fb;
+  --plus-blue: #cae4fa;
+
+  --border-blue: #deeefc;
+
+  --border-blue-inverted: #cae4fa;
+
+  --navy: #2f487a;
+
+  --aqua-green: #2e9d74;
+
+  --light-green: #eefcf1;
+
+  --light-blue-green: #ecf4f9;
+
+}

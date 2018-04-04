@@ -1,0 +1,9 @@
+<template>
+
+  <div class="close-button" click.delegate="closePreview()" title="Close Preview" aria-label="Close Preview">
+    <img src="../../../static/close.svg">
+  </div>
+
+  <img src="${imgSrc}" click.delegate="closePreview()" style="max-width: 100vw; max-height: 100vh; cursor: pointer;">
+
+</template>

@@ -1,0 +1,43 @@
+<template>
+
+  <div if.bind="resize.desktop">
+    <div class="heading">
+      <div class="heading-logo ${!parent.scrollAtTop ? 'fade-in' : 'fade-out'}">
+        <a href="#"><img src="../../../static/logo.svg"></a>
+      </div>
+      <ul>
+        <li repeat.for="row of router.navigation">
+          <a href.bind="row.href" class="${row.isActive ? 'heading-active' : ''}">${row.title}</a>
+        </li>
+      </ul>
+      <div class="get-cavy">
+        <div class="button ${router.currentInstruction.config.name === 'claim' ? 'button-active' : ''}" click.delegate="claim()">
+          Get Cavy
+        </div>
+        <div class="subtitle">Easy set-up. Free 30 day Trial. Cancel at any time.</div>
+      </div>
+    </div>
+    <div class="logo-triangle">
+      <img src="../../../static/logo.svg">
+    </div>
+  </div>
+
+  <div if.bind="!resize.desktop">
+    <div class="heading">
+      <div class="heading-mobile-top">
+        <div class="heading-mobile-logo">
+          <img src="../../../static/logo-mobile.svg" click.delegate="home()">
+        </div>
+        <div class="button ${router.currentInstruction.config.name === 'claim' ? 'button-active' : ''}" click.delegate="claim()">
+          Get Cavy
+        </div>
+      </div>
+      <ul class="heading-mobile-bottom">
+        <li repeat.for="row of router.navigation">
+          <a href.bind="row.href" class="${row.isActive ? 'heading-active' : ''}">${row.title}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</template>

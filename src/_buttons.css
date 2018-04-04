@@ -1,0 +1,99 @@
+.button {
+  background-color: var(--blue);
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
+.inverted-button {
+  background-color: var(--light-blue);
+  color: var(--blue-gray);
+  border: 1px solid var(--blue);
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, .1);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+.button-active {
+  color: var(--blue);
+  background-color: #fff;
+  animation: buttonActivePulse 150ms ease-in;
+  box-shadow: 0 1px 14px 1px rgba(30,140,240,0.2);
+  border-radius: 30px;
+  cursor: initial;
+}
+
+.inverted-button:after {
+  background: rgba(0, 134, 255, .1);
+}
+
+.inverted-button:hover::after {
+  animation: ripple 0.3s ease-out !important;
+}
+
+.close-button {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0 3px 30px 3px rgba(0,0,0,.16);
+  user-select: none;
+}
+
+@keyframes buttonActivePulse {
+  0% {
+    background-color: var(--blue);
+    box-shadow: 0 1px 0 1px rgba(0,0,0,0);
+    border-radius: 0;
+  }
+  100% {
+    background-color: #fff;
+    box-shadow: 0 1px 14px 1px rgba(30,140,240,0.2);
+    border-radius: 30px;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.button:hover::after {
+  animation: ripple 1s ease-out;
+}

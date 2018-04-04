@@ -1,0 +1,25 @@
+.academic-hero {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('static/academic-hero.jpg');
+}
+
+.academic-diagram {
+  float: right;
+  margin: 0 0 20px 40px;
+}
+
+@media (max-width: 768px) {
+  .academic-diagram {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .academic-diagram {
+    width: 300px;
+  }
+
+}

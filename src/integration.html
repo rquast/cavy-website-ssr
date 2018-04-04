@@ -1,0 +1,77 @@
+<template>
+
+  <div class="container">
+
+    <div class="section">
+
+      <div class="page-body">
+        <div class="integration-heading-container">
+          <div class="center-vertical">
+            <div class="blue-heading" if.bind="resize.desktop">Integrating Cavy</div>
+            <div class="blue-gray-heading">Integration</div>
+            <div class="light-blue-gray-heading" if.bind="resize.desktop">How to integrate Cavy with your systems.</div>
+          </div>
+          <div class="heading-image">
+            <img src="../static/integration.svg" class="integration-image">
+          </div>
+        </div>
+      </div>
+
+      <div class="page-body">
+
+        <p>Cavy can be integrated with your website or software product in one of two ways.</p>
+
+        <ul>
+          <li>Directly linking to a topic by its URL.</li>
+          <li>Adding the Website Widget to your website.</li>
+        </ul>
+
+        <div id="direct" class="page-heading-title">Direct Linking</div>
+
+        <p>To link to a page in Cavy, you need to use the following URL pattern:</p>
+
+        <div class="integration-code-container">https://<strong>(your-subdomain)</strong>.cavy.io/#/?topic=<strong>(topic-tag)</strong></div>
+
+        <p>To link to the chat page with a set topic, use:</p>
+
+        <div class="integration-code-container">https://<strong>(your-subdomain)</strong>.cavy.io/#/chat?topic=<strong>(topic-tag)</strong></div>
+
+        <p>To link to the issues page with a set topic, use:</p>
+
+        <div class="integration-code-container">https://<strong>(your-subdomain)</strong>.cavy.io/#/issues?topic=<strong>(topic-tag)</strong></div>
+
+        <div id="widget" class="page-heading-title">Website Widget</div>
+
+        <p>The website widget is an open source JavaScript widget that you link inside your website code.</p>
+
+        <p>To add the widget to your website, add this code <strong>before the closing body tag</strong>:</p>
+
+        <div innerhtml.bind="getFormattedCode(script, 'html')" class="integration-code-container">
+        </div>
+
+        <p>Every page needs a topic, use the following code to add one:</p>
+
+        <div innerhtml.bind="getFormattedCode(bodyTag, 'html')" class="integration-code-container">
+        </div>
+
+        <p>For elements that you would like to highlight in a page, add a data-cavy-topic attribute for each one. If you want the element to open the topic in an iframe overlay, add data-cavy-link="true".</p>
+
+        <div innerhtml.bind="getFormattedCode(elementTag, 'html')" class="integration-code-container">
+        </div>
+
+        <p>If you want to load a topic in an iframe overlay with an anchor tag, use:</p>
+
+        <div innerhtml.bind="getFormattedCode(anchorTag, 'html')" class="integration-code-container">
+        </div>
+
+        <p>You can also modify the widget if you host it on your website. The source and further instructions can be found at:</p>
+
+        <p><a href="https://github.com/cavyio/widget" target="_blank"><strong>https://github.com/cavyio/widget</strong></a></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>

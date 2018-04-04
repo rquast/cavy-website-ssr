@@ -1,0 +1,8 @@
+<template>
+
+  <div repeat.for="item of items" click.delegate="view(item)">
+    <div class="preview-magnify"><span style="background: white;">VIEW</span></div>
+    <img src="${thumbnail(item)}">
+  </div>
+
+</template>

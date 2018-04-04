@@ -1,0 +1,110 @@
+<template>
+
+  <div if.bind="resize.desktop" class="footer">
+
+    <div class="footer-column-container">
+
+      <div class="footer-column">
+        <div class="footer-column-title">
+          Cavy
+        </div>
+        <div class="footer-copyright">
+          &copy; 2018, Software Engineering &amp; Consulting Pty Ltd (Australia)
+        </div>
+        <div class="footer-copyright">
+          ACN 127 397 228
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <div class="footer-column-title">
+          Compliance &amp; Legal
+        </div>
+        <ul class="footer-column-links">
+          <li><a href="https://connect.cavy.io/legal/terms_of_use.html" target="_blank">Terms of Use</a></li>
+          <li><a href="https://connect.cavy.io/legal/tos_end_user.html" target="_blank">Terms of Service - End Users</a></li>
+          <li><a href="https://connect.cavy.io/legal/tos_subscriber.html" target="_blank">Terms of Service - Subscriber</a></li>
+          <li><a href="https://connect.cavy.io/legal/privacy_policy.html" target="_blank">Privacy Policy</a></li>
+          <li><a href="https://support.cavy.io/api/opengraph/report-abuse" target="_blank">Report Abuse</a></li>
+          <li><a href="https://support.cavy.io/api/opengraph/copyright-claims" target="_blank">Copyright Claims</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <div class="footer-column-title">
+          Marketing
+        </div>
+        <ul class="footer-column-links">
+          <li><a href="https://www.redbubble.com/people/cheesyweasel/works/28119539-cavy-swag" target="_blank">Buy Cavy Merchandise</a></li>
+        </ul>
+        <div class="footer-column-title">
+          Feedback &amp; Contact
+        </div>
+        <ul class="footer-column-links">
+          <li><a href="https://support.cavy.io" target="_blank">https://support.cavy.io</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <div class="footer-column-title">
+          Follow
+        </div>
+        <ul class="footer-column-links">
+          <li><a href="https://github.com/cavyio" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div if.bind="!resize.desktop" class="footer-mobile">
+
+    <div>
+      <div class="footer-column-title">
+        Compliance &amp; Legal
+      </div>
+      <ul class="footer-column-links">
+        <li><a href="https://connect.cavy.io/legal/terms_of_use.html" target="_blank">Terms of Use</a></li>
+        <li><a href="https://connect.cavy.io/legal/tos_end_user.html" target="_blank">Terms of Service - End Users</a></li>
+        <li><a href="https://connect.cavy.io/legal/tos_subscriber.html" target="_blank">Terms of Service - Subscriber</a></li>
+        <li><a href="https://connect.cavy.io/legal/privacy_policy.html" target="_blank">Privacy Policy</a></li>
+        <li><a href="https://support.cavy.io/api/opengraph/report-abuse" target="_blank">Report Abuse</a></li>
+        <li><a href="https://support.cavy.io/api/opengraph/copyright-claims" target="_blank">Copyright Claims</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-column-title">
+        Marketing
+      </div>
+      <ul class="footer-column-links">
+        <li><a href="https://www.redbubble.com/people/cheesyweasel/works/28119539-cavy-swag" target="_blank">Buy Cavy Merchandise</a></li>
+      </ul>
+      <div class="footer-column-title">
+        Feedback &amp; Contact
+      </div>
+      <ul class="footer-column-links">
+        <li><a href="https://support.cavy.io" target="_blank">https://support.cavy.io</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-column-title">
+        Follow
+      </div>
+      <ul class="footer-column-links">
+        <li><a href="https://github.com/cavyio" target="_blank">GitHub</a></li>
+        <li><a href="https://twitter.com/cavyio" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-copyright">
+        &copy; 2018, Software Engineering &amp; Consulting Pty Ltd
+      </div>
+    </div>
+
+  </div>
+
+</template>

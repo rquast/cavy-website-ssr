@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 100 100">
+ <metadata id="metadata11756">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dc:publisher>
+     <cc:Agent rdf:about="http://openclipart.org/">
+      <dc:title>Openclipart</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:title/>
+    <dc:date>2013-09-11T21:09:47</dc:date>
+    <dc:description>sticky cube notes</dc:description>
+    <dc:source>https://openclipart.org/detail/183333/cube-notes-by-crisg-183333</dc:source>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>crisg</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>icon</rdf:li>
+      <rdf:li>notes</rdf:li>
+      <rdf:li>office</rdf:li>
+      <rdf:li>open clip art</rdf:li>
+      <rdf:li>post-it</rdf:li>
+      <rdf:li>sticky notes</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <ellipse id="circle2928-3" rx="36.887" ry="36.887" cy="50" cx="50" stroke-width=".15009" fill="#b2d8fa"/>
+ <g id="g7015" stroke-width=".21431" transform="matrix(3.4016 0 0 3.4016 -122.01 -52.74)">
+  <path id="path2828-9" d="m45.21 34.288v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3578 2.1431z" fill="#d84990"/>
+  <path id="path2826-2" d="m45.21 33.216v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3578 2.1431z" fill="#1998d5"/>
+  <path id="path2822-0" d="m45.21 32.145v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3578 2.1431z" fill="#a6e2ff"/>
+  <path id="path2824-2" d="m45.21 31.073v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3578 2.1431z" fill="#74ca61"/>
+  <path id="path2833-3" d="m45.21 30.002v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3578 2.1431z" fill="#ffe96b"/>
+  <path id="path3609-7" d="m45.21 28.93v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3578 2.1431z" fill="#f78047"/>
+  <path id="path3687-5" d="m45.21 27.859v-1.0716l5.3578-2.1431 5.3578 2.1431v1.0716l-5.3923 2.1431z" fill="#ee4043"/>
+  <path id="path2820-9" d="m45.21 26.787 5.3578 2.1431 5.3578-2.1431-5.3578-2.1431z" fill="#f8555a"/>
+  <path id="path3739-2" d="m48.639 28.073 3.6433 0.21431c-0.77152 0-1.5002-0.64294-1.5002-1.0716-0.19288 0.21431-1.4359 0.85725-2.1431 0.85725z" fill="#bf3336"/>
+  <path id="path2835-2" d="m45.21 26.787v7.5009l5.3578 2.1431v-7.5009z" fill-opacity=".098039"/>
+ </g>
+</svg>

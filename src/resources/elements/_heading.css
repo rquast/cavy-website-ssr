@@ -1,0 +1,150 @@
+.heading {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  user-select: none;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.heading-mobile-top {
+  display: flex;
+  justify-content: flex-end;
+  height: 34px;
+  align-items: flex-end;
+  padding: 0 8px 0 14px;
+  user-select: none;
+}
+
+.heading-mobile-logo {
+  flex: 1;
+}
+
+.heading-mobile-logo > img {
+  cursor: pointer;
+}
+
+.heading-mobile-bottom {
+  display: flex;
+  padding: 0 18px 0 10px;
+}
+
+.heading-logo {
+  flex: 1;
+  margin-left: 45px;
+}
+
+.heading .get-cavy {
+  margin-right: 3%;
+  text-align: center;
+}
+
+.heading .button  {
+  font-size: 15px;
+  line-height: 40px;
+  padding: 0 16px 0 16px;
+  display: inline-block;
+}
+
+.heading .subtitle {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  color: var(--light-blue-gray);
+  width: 150px;
+  text-align: center;
+  line-height: 16px;
+  padding-bottom: 6px;
+}
+
+.heading > ul {
+  margin: 0 2% 25px 0;
+  display: block;
+  list-style: none;
+}
+
+.heading > ul > li {
+  float: left;
+  position: relative;
+  display: list-item;
+  color: var(--blue-gray);
+  font-weight: 500;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  margin: 0 16px 4px 16px;
+}
+
+.heading > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: var(--blue-gray);
+  cursor: pointer;
+  line-height: 40px;
+}
+
+.heading > ul > li > a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 1px;
+  height: 2px;
+  background: var(--blue-gray);
+  border-radius: 4px;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.heading > ul > li > a:hover::after {
+  width: 18px;
+  opacity: 1;
+}
+
+.heading-active {
+  color: var(--blue) !important;
+}
+
+.heading-active:after {
+  width: 18px !important;
+  opacity: 1 !important;
+  background: var(--blue) !important;
+}
+
+@media (max-width: 768px) {
+
+  .heading {
+    padding-top: 0;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+  }
+
+  .heading > ul {
+    margin: 0;
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
+
+  .heading > ul > li {
+    margin: 0 5px 0 5px;
+    font-size: 12px;
+  }
+
+  .heading > ul > li > a {
+    line-height: 36px;
+  }
+
+  .heading .button  {
+    font-size: 11px;
+    line-height: 11px;
+    padding: 8px 10px 8px 10px;
+    display: inline-block;
+  }
+
+}

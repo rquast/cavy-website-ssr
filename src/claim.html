@@ -1,0 +1,30 @@
+<template>
+
+  <div class="container">
+
+    <div class="section">
+
+      <div class="page-body">
+        <div class="claim-heading-container">
+          <div class="center-vertical">
+            <div class="blue-heading" if.bind="resize.desktop">Create Your Cavy</div>
+            <div class="blue-gray-heading">Subscribe</div>
+            <div class="light-blue-gray-heading" if.bind="resize.desktop">Get a Cavy subdomain (your-subdomain-name.cavy.io)</div>
+          </div>
+          <div class="heading-image">
+            <img src="../static/subscribe.svg" class="claim-image">
+          </div>
+        </div>
+      </div>
+
+      <div class="claim-body page-body">
+
+        <iframe class="noborder" src="https://support.cavy.io/#/getcavy" width="100%" height="300"></iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>
